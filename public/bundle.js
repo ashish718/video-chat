@@ -8176,7 +8176,6 @@ let socket = io();
 const video = document.querySelector('video');
 let client = {}
 
-
 //get stream and permission from client
 navigator.mediaDevices.getUserMedia({video:true, audio:true})
 .then(stream=>{
